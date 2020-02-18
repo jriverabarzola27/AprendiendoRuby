@@ -1,11 +1,15 @@
+
+
 #Condicionales
 
-role = :superadmin
+is_authenticated = true
 
-if role == :admin
-	puts "Pantalla de admin"
-elsif role == :superadmin
-  	puts "Pantalla de  superadmin"
-else
-  	puts "Pantalla de error"
+if is_authenticated
+    if is_authenticated
+        puts "Pantalla 1"
+    elsif 
+        puts "Pantalla 2"
+    end
+elsif
+    puts "oh no"
 end
