@@ -11,6 +11,7 @@ if is_authenticated
         puts "Pantalla 2"
     end
 elsif
+<<<<<<< HEAD
     puts "oh no fuentes de ortiz"
 end
 
@@ -24,4 +25,7 @@ elsif role == :superadmin
     puts "Pantalla de superadmin"
 else
     puts "Pantalla de Login"
+=======
+    puts "oh no no lodigo por mamon"
+>>>>>>> condicionales
 end
